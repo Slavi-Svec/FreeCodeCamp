@@ -1,0 +1,24 @@
+Fill in the Blank with Placeholder Text
+
+Replace the text inside your p element with the first few words of this kitty ipsum text: 
+Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles
+chase the red dot, hairball run catnip eat the grass sniff.
+
+<h1>Hello World</h1>
+
+<h2>CatPhotoApp</h2>
+
+<p>Hello Paragraph</p>
+
+Solution:
+
+<h1>Hello World</h1>
+
+<h2>CatPhotoApp</h2>
+
+<p>Replace the text inside your p element with the first few words of this kitty ipsum text: 
+Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles
+chase the red dot, hairball run catnip eat the grass sniff.</p>
+
+
+
