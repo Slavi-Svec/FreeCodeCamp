@@ -1,0 +1,12 @@
+Create a p element below your h2 element, and give it the text "Hello Paragraph".
+
+Note: As a convention, all HTML tags are written in lowercase, for example <p></p> and not <P></P>.
+
+<h1>Hello World</h1>
+<h2>CatPhotoApp</h2>
+
+Solution:
+
+<h1>Hello World</h1>
+<h2>CatPhotoApp</h2>
+<p> Hello Paragraph</p>
