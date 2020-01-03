@@ -18,6 +18,8 @@ Create an ordered list of the top 3 things cats hate the most.
 
 </main>
 
+Sooution:
+
 <h2>CatPhotoApp</h2>
 <main>
   <p>Click here to view more <a href="#">cat photos</a>.</p>
@@ -36,5 +38,5 @@ Create an ordered list of the top 3 things cats hate the most.
     <li>water</li>
     <li>dogs</li>
     <li>vegetables</li>
-  
+  </ol>
   </main>
