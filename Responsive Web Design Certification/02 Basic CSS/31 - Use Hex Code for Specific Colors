@@ -1,0 +1,17 @@
+Use Hex Code for Specific Colors
+
+Replace the word black in our body element's background-color with its hex code representation, #000000.
+
+<style>
+  body {
+    background-color: black;
+  }
+</style>
+
+//Solution
+
+<style>
+  body {
+    background-color: #000000;
+  }
+</style>
