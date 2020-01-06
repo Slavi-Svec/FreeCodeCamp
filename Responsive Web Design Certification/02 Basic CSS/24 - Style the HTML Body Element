@@ -1,0 +1,22 @@
+Style the HTML Body Element
+
+We can prove that the body element exists here by giving it a background-color of black.
+
+We can do this by adding the following to our style element:
+
+body {
+  background-color: black;
+}
+
+<style>
+
+</style>
+
+
+//Solution
+
+<style>
+body {
+  background-color: black;
+}
+</style>
