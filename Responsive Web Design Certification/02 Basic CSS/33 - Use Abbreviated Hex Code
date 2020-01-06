@@ -1,0 +1,57 @@
+Use Abbreviated Hex Code
+
+Go ahead, try using the abbreviated hex codes to color the correct elements.
+
+Color	Short Hex Code
+Cyan	#0FF
+Green	#0F0
+Red	#F00
+Fuchsia	#F0F
+
+<style>
+  .red-text {
+    color: #000000;
+  }
+  .fuchsia-text {
+    color: #000000;
+  }
+  .cyan-text {
+    color: #000000;
+  }
+  .green-text {
+    color: #000000;
+  }
+</style>
+
+<h1 class="red-text">I am red!</h1>
+
+<h1 class="fuchsia-text">I am fuchsia!</h1>
+
+<h1 class="cyan-text">I am cyan!</h1>
+
+<h1 class="green-text">I am green!</h1>
+
+//Solution 
+
+<style>
+  .red-text {
+    color: 	#F00;
+  }
+  .fuchsia-text {
+    color: 	#F0F;
+  }
+  .cyan-text {
+    color: 	#0FF;
+  }
+  .green-text {
+    color: 	#0F0;
+  }
+</style>
+
+<h1 class="red-text">I am red!</h1>
+
+<h1 class="fuchsia-text">I am fuchsia!</h1>
+
+<h1 class="cyan-text">I am cyan!</h1>
+
+<h1 class="green-text">I am green!</h1>
