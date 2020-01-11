@@ -1,0 +1,27 @@
+ Make an Image Responsive
+ 
+ Add style rules for the img tag to make it responsive to the size of its container. 
+ It should display as a block-level element, it should fit the full width of its container
+ without stretching, and it should keep its original aspect ratio.
+ 
+ <style>
+
+</style>
+
+<img src="https://s3.amazonaws.com/freecodecamp/FCCStickerPack.jpg" alt="freeCodeCamp stickers set">
+
+
+//  Solution 
+
+<style>
+
+img {
+    max-width: 100%;
+    display: block; 
+    height: auto;
+}
+</style>
+
+<img src="https://s3.amazonaws.com/freecodecamp/FCCStickerPack.jpg" alt="freeCodeCamp stickers set">
+
+
