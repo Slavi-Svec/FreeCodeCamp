@@ -15,3 +15,13 @@ As you write code, you should regularly add comments to clarify the function of 
 Try creating one of each type of comment.
 
 //  Solution 
+
+
+
+//  this is an in-line comment.
+
+
+/* this is  
+also a comment. */
+
+
