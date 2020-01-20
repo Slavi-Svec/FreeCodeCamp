@@ -1,0 +1,14 @@
+Nest one Array within Another Array
+
+Create a nested array called myArray.
+
+// Example
+var ourArray = [["the universe", 42], ["everything", 101010]];
+
+// Only change code below this line.
+var myArray = [];
+
+
+// Solution 
+
+var myArray = [["Newtown", 210], ["Kings Cross", 32]];
