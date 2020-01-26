@@ -1,0 +1,20 @@
+Build JavaScript Objects
+
+// Example
+var ourDog = {
+  "name": "Camper",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["everything!"]
+};
+
+// Only change code below this line.
+
+// Solution  
+
+var myDog = {
+"name": "Fluffy",
+"legs": 4,
+"tails": 1,
+"friends": ["Arnold", "Coco", "Max"]
+}
