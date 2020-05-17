@@ -11,3 +11,7 @@ function confirmEnding(str, target) {
 }
 
 confirmEnding("Bastian", "n");
+
+// Solution 
+
+const confirmEnding = (str, target) => (str.substr(-target.length) === target) ? true : false 
