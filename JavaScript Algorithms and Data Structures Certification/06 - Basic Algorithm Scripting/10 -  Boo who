@@ -11,3 +11,5 @@ function booWho(bool) {
 booWho(null);
 
 // Solution 
+
+const booWho = bool => 'boolean' === typeof bool
