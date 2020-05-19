@@ -12,7 +12,7 @@ repeatStringNumTimes("abc", 3);
 
 // Solution 
 
-const repeatStringNumTimes = (str, num) => num > 0 ? str + repeatStringNumTimes(str, num - 1) : '';
+const repeatStringNumTimes = (str, num) => num > 0 ? str + repeatStringNumTimes(str, num - 1) : ''
 
 repeatStringNumTimes("abc", 3);
 
