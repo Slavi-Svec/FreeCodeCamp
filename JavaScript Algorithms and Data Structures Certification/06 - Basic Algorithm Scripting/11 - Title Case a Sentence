@@ -13,3 +13,12 @@ titleCase("I'm a little tea pot");
 
 // Solution 
 
+function titleCase(str) {
+    let string = str.toLowerCase().split(' ')
+    for (let i = 0; i < string.length; i++){
+        string[i] = string[i].charAt(0).toUpperCase() + string[i].substring(1)
+    }
+    return string.join(' ')
+}
+console.log(titleCase("I'm a little tea pot"))
+
