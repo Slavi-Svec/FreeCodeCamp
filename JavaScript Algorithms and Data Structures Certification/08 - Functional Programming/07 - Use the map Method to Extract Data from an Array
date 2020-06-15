@@ -133,4 +133,8 @@ console.log(JSON.stringify(ratings));
 
 // Soution 
 
+const ratings = watchList.map(item => ({
+  title: item["Title"],
+  rating: item["imdbRating"]
+}))
 
