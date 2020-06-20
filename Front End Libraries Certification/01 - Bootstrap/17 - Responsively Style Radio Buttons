@@ -1,0 +1,5 @@
+Responsively Style Radio Buttons
+
+Nest both your radio buttons within a <div class="row"> element. Then nest each of them within a <div class="col-xs-6"> element.
+
+Note: As a reminder, radio buttons are input elements of type radio.
