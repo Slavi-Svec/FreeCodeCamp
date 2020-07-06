@@ -34,7 +34,7 @@ function convertHTML(str) {
 
 console.log(convertHTML("Dolce & Gabbana"))
 
-
+// OR 
 
 function convertHTML(str) {
 const htmlCharacters = {
