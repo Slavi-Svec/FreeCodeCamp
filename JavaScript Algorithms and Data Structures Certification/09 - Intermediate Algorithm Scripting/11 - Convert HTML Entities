@@ -38,14 +38,16 @@ console.log(convertHTML("Dolce & Gabbana"))
 
 function convertHTML(str) {
 const htmlCharacters = {
-  '&' : "&amp",
+  '&' : '&amp;',
   '<' : '&lt;',
   '>' : '&gt;',
   '"' : '&quot;',
-  '"' : '&apos;',
+  "'" : '&apos;',
 }
 return str.replace(/([&<>"'])/g, match => htmlCharacters[match])
 }
+
+convertHTML("Dolce & Gabbana");
 
 
 console.log(convertHTML(("Hamburgers < Pizza < Tacos")))
