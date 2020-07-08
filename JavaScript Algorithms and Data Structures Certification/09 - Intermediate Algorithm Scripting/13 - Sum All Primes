@@ -14,3 +14,20 @@ sumPrimes(10);
 
 // Solution
 
+
+  function sumPrimes(num) {
+    let stored  = [], i, j
+    let  primes = [];
+    for (i = 2; i <= num; ++i) {
+        if (!stored [i])  {
+            primes.push(i);
+            for (j = i << 1; j <= num; j += i) {
+                stored[j] = true;
+            }
+        }
+    }
+    return primes.reduce((a,b) => a + b, 0)
+}
+
+console.log(sumPrimes(10))
+
