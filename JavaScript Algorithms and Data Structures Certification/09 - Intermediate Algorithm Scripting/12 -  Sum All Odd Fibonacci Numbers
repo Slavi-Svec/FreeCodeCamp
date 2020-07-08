@@ -12,3 +12,20 @@ function sumFibs(num) {
 }
 
 sumFibs(4);
+
+// Solution 
+
+function sumFibs(num) {
+  let x = 0;
+  let y = 1;
+  let array = [0, 1]
+
+  while(y <= num) {
+      y += x;
+      x = y - x;
+      array.push(y)
+  }
+  let newArr = array.filter(n => n % 2)
+  let arrTwo = newArr.slice(0, -1)
+  return arrTwo.reduce((a, b) => a + b, 0)
+}
