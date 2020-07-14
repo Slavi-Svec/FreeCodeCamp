@@ -130,3 +130,15 @@ console.log(getRating(watchList));
 
 
 // Solution 
+
+const  getRating = (watchList) => {
+let averageRating =
+  watchList
+  .filter(film => film.Director == 'Christopher Nolan')
+  .map(film => Number(film.imdbRating))
+  .reduce((sumOfRatings, rating) => sumOfRatings + rating) /
+   watchList.filter(film => film.Director == 'Christopher Nolan').length
+
+  return averageRating
+}
+console.log(getRating(watchList))
