@@ -15,3 +15,7 @@ splitify("Hello World,I-am code");
 
 // Solution
 
+function splitify(str) {
+  return str.split(/[^A-Za-z0-9_]/)
+}
+
