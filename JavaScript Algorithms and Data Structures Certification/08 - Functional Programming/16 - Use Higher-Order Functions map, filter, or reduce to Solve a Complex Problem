@@ -20,3 +20,12 @@ console.log(squaredIntegers);
 // Solution 
 
 
+const squareList = (arr) => {
+  let positive = arr.filter(function (a) {return a >= 0  && a % 1 ==0})
+  return positive.map(function(i) {
+    return i * i;
+  })
+}
+
+const squaredIntegers = squareList([-3, 4.8, 5, 3, -3.2]);
+console.log(squaredIntegers);
