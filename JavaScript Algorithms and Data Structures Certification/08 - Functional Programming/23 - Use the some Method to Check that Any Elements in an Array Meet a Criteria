@@ -12,3 +12,7 @@ checkPositive([1, 2, 3, -4, 5]);
 
 
 // Solution 
+
+const checkPositive = (arr) => arr.some(x => x > 0)
+
+
