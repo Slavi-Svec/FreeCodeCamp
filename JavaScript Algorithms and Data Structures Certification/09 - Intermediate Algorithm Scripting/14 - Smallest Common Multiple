@@ -17,6 +17,19 @@ function smallestCommons(arr) {
 smallestCommons([1,5]);
 
 
-// Solution 
+const smallestCommons = arr => {
+   let max = Math.max(...arr)
+   let min = Math.min(...arr)
+   let final = max
+
+  for (let i = max - 1; i >= min; i--) {
+    if (final % i) {
+       final += max
+       i = max
+    }
+  }
+  return final
+}
+
 
 
