@@ -19,3 +19,15 @@ function addTogether() {
 }
 
 addTogether(2,3);
+
+Solution 
+
+
+const  addTogether = (first, second) => {
+   if (typeof first !== "number") {
+    return undefined
+  }
+  const sums = second =>
+    typeof second === "number" ? first + second : undefined
+   return typeof second === "undefined" ? second => sums (second) : sums (second)
+}
