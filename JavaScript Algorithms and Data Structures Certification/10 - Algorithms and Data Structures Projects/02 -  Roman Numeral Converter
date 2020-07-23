@@ -10,22 +10,25 @@ function convertToRoman(num) {
 
 convertToRoman(36);
 
-// Solution (not completed)
+// Solution
 
 function convertToRoman(num) {
-  const roman = ['I', 'IV', 'V', 'IX', 'X', 'XL', 'L', 'XC', 'C', 'CD', 'D', 'CM', 'M']
-  const numbers = [ 1, 4, 5, 9, 10, 40, 50, 90, 100, 400, 500, 900, 1000 ]
-  let romanNumerals = ''
-  
-  if (num === 4) {
-    return
-  }
+  const romanNumeral = [ 'M', 'CM', 'D', 'CD', 'C', 'XC', 'L', 'XL', 'X', 'IX', 'V', 'IV', 'I' ]
+  const  numbers = [ 1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1 ]
+  let  romanConverted = '', dec, div
 
-  for (let i = 0; i < num; i++) {
-    // console.log(roman[0])
-    romanNumerals += roman[0]
+   for (let i = 0; i < numbers.length; i++) {
+     dec = numbers[i]
+     div = Math.floor(num / dec)
+    
+    if (div > 0) {
+      romanConverted += romanNumeral[i].repeat(div)
+      num = num % dec
+    }
   }
-  return romanNumerals
+  return romanConverted
 }
 
-console.log(convertToRoman(4))
+convertToRoman(36)
+
+
