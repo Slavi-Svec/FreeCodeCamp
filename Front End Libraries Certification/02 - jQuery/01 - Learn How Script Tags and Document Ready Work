@@ -32,3 +32,7 @@ is rendered, which would cause bugs.
 
 // Solution 
 
+<script>
+$(document).ready(function() {
+});
+</script>
